@@ -1,0 +1,5 @@
+index.html having the root div id, calls/returns main.jsx (situated in the src folder) which having the index.css style embed, calls App.jsx which further calls out the entire components association/group under its main tag. 
+<>..</> : empty fragments/divs
+When a resource/data is to be shared by components on the same level/location in directory, it is best you put that resource on the parent level than on either of the components.
+Whenever there's a variable that is prone to constant change/modification in its value due to repeated user interactions on it, then use State.
+props passed into a function as parameter serves as a reminder for an incoming component to be used within the new function where its used.
